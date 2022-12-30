@@ -1,0 +1,20 @@
+Failure. Type: Email, ID: 0, Reason: Invalid Email address. Email should be in the form of name@example.com 
+Failure. Type: Text, ID: 0, Reason: Message can only be sent between 10AM to 5PM. Your timing is 22 hours 
+Success. Type: Email, ID: 1 
+Success. Type: Text, ID: 1 
+Success. Type: Email, ID: 0 
+Failure. Type: Text, ID: 0, Reason: Message can only be sent between 10AM to 5PM. Your timing is 22 hours 
+Success. Type: Email, ID: 1 
+Success. Type: Text, ID: 1 
+Success. Type: Email, ID: 0 
+Failure. Type: Text, ID: 0, Reason: Message can only be sent between 10AM to 5PM. Your timing is 22 hours 
+Success. Type: Email, ID: 1 
+Success. Type: Text, ID: 1 
+Success. Type: Email, ID: 0 
+Failure. Type: Text, ID: 0, Reason: Message can only be sent between 10AM to 5PM. Your timing is 22 hours 
+Success. Type: Email, ID: 1 
+Failure. Type: Text, ID: 1, Reason: The following arguments have not been supplied: message 
+Success. Type: Email, ID: 0 
+Failure. Type: Text, ID: 0, Reason: Message can only be sent between 10AM to 5PM. Your timing is 22 hours 
+Success. Type: Email, ID: 1 
+Success. Type: Text, ID: 1 
