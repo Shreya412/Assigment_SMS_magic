@@ -4,8 +4,8 @@ from io import TextIOWrapper
 from worker import scheduler, send_mail, send_sms
 from datetime import datetime
 
-DATA_FILE_PATH = "archive/data.csv"
-OUTPUT_FILE_PATH = "archive/output.txt"
+DATA_FILE_PATH = "./data.csv"
+OUTPUT_FILE_PATH = "./output.txt"
 
 def start_process(data: pd.DataFrame, output_file: TextIOWrapper) -> None:
     cache = {}
