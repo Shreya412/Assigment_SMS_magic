@@ -34,7 +34,7 @@ def start_process(data: pd.DataFrame, output_file: TextIOWrapper) -> None:
                 else:
                     send_mail(email_address, country)
 
-                ## if email send succeed then add email into cache
+                ## if email send is successful, add email into cache
                 if cache.get(email_address):
                     cache[email_address].append(message)
                 else:
@@ -66,7 +66,7 @@ def start_process(data: pd.DataFrame, output_file: TextIOWrapper) -> None:
                 else:
                     send_sms(phone_number, country, message)
 
-                # if text send successful add them into cache
+                # if text send is successful, add phone number into cache
                 if cache.get(phone_number):
                     cache[phone_number].append(message)
                 else:
