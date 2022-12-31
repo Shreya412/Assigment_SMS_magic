@@ -39,43 +39,9 @@ def validate_hours(country: Any) -> None:
         )
 
 def validate_sms(message, phone_number, country):
-    # try:
     validate_message(message)
     validate_phone_number(phone_number)
     validate_hours(country)
-    # except ValueError:
-    #     raise InvalidSMS("Message constraints not satisfied.")
-    
-# def check_duplicate_email(email, message,dict_email) -> None:
-#     if email in dict_email:
-        
-#         list_msg = dict_email[email]
-#         for msg in list_msg:
-#             if message == msg:
-#                 raise CheckDuplicateEmail(
-#             f"Duplicate message detected for {email}")
-#             else:
-#                 dict_email[email].append(message)
-#                 print(dict_email)
-
-#     else:
-#         dict_email[email] = []
-#         dict_email[email].append(message)
-
-# def check_duplicate_sms(phone_number, message,dict_sms) -> None:
-#     if phone_number in dict_sms:
-        
-#         list_msg = dict_sms[phone_number]
-#         for msg in list_msg:
-#             if message == msg:
-#                 raise CheckDuplicateSMS(
-#             f"Duplicate message detected for {phone_number}")
-#             else:
-#                 dict_sms[phone_number].append(message)
-
-#     else:
-#         dict_sms[phone_number] = []
-#         dict_sms[phone_number].append(message)
 
 
 def validate_duplicates(key: str, message: str, cache: dict):
