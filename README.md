@@ -1,4 +1,4 @@
-# Assigment_SMS_Magic
+# Assignment_SMS_Magic
 This program is written to send Text Message and Email by reading fields - Message, email id, phone number and Country from a given CSV file "data.csv".
 
 ### Project Requirements:
