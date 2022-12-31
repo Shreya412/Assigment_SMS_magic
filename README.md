@@ -6,7 +6,7 @@ This program is written to send Text Message and Email by reading fields - Messa
 
 ### Steps for setting up the project in local
 
-1. Clone GitHub Repo: [https://github.com/Shreya412/Assigment_SMS_magic.git](https://github.com/Shreya412/Assigment_SMS_magic.git)
+1. Clone GitHub Repo: [https://github.com/Shreya412/Assignment_SMS_magic.git](https://github.com/Shreya412/Assignment_SMS_magic.git)
 2. Create Virtual Env: ` python -m venv venv `
 3. Activate venv: `source venv/bin/activate`(Linux) and `venv\Scripts\activate`(Windows)
 4. Download dependencies: `pip install -r requirements.txt`
