@@ -10,7 +10,7 @@ This program is written to send Text Message and Email by reading fields - Messa
 2. Create Virtual Env: ` python -m venv venv `
 3. Activate venv: `source venv/bin/activate`(Linux) and `venv\Scripts\activate`(Windows)
 4. Download dependencies: `pip install -r requirements.txt`
-5. Run main.py which contains driver code for sending email. SMS or both
+5. Run main.py which contains driver code for sending Email, SMS or both
 
 ### Documentation:
 
